@@ -216,7 +216,7 @@ main {
     margin-right: 240px;
     padding: 40px 210px;
     text-align: center;
-    margin-bottom: 215px;
+    margin-bottom: ;
 }
 
 
@@ -245,7 +245,7 @@ main {
         max-width: 300px;
     }
 
-    .temas-img-container {
+    .temas-img-container,{
         grid-template-columns: 1fr;
     }
 
@@ -258,21 +258,35 @@ main {
     .facts-card-container {
         gap: 20px;
     }
-
+    .finis-footer{
+        width: 0px;
+   
+        padding: 5px;
+        flex-direction: column;
+        margin: auto;
+    }
 }
 
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     nav,
+    .finis-footer,
     .features,
     .temes-container,
     .sponsors-img-container {
         flex-direction: column;
     }
 
-    header {
+    header{
         padding: 50px;
+    }
+    .finis-footer{
+        width: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px;
+        flex-direction: column;
     }
 
 }
