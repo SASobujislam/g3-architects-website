@@ -75,7 +75,7 @@ nav li a {
 }
 
 /* responsive media queries */
-    /* mobile devices */
+/* mobile devices */
 @media screen and (max-width: 576px) {
     header {
         padding: 20px;
@@ -85,14 +85,49 @@ nav li a {
         flex-direction: column;
     }
 }
+
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+
     nav {
         flex-direction: column;
     }
+
     header {
         padding: 50px;
     }
 
+}
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams styles */
+.temes-container {
+    display: flex;
+    align-items: center;
+}
+
+.temas-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.temes-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.temes-title{
+    font-size: 2.8rem;
+}
+.temes-title .queck-list{
+    color: #727272;
+    font-weight: 500;
+}
+.temes-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
 }
